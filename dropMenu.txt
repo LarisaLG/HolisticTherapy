@@ -1,0 +1,49 @@
+
+
+#dropMenu  {
+	margin:0;
+	padding:0;
+	}
+	
+#dropMenu ul {
+	margin:0;
+	padding:0;
+	line-height:50px;
+	
+	}
+	
+#dropMenu li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:right;
+	text-align:center;
+	position:relative;
+	width: 100px;
+	} 
+	
+#dropMenu ul li a {
+	text-align:left;
+	text-decoration:none;
+	height:35px;
+	width:200px;
+	display:block;
+	color:#000;
+	}
+		
+#dropMenu ul ul{
+	text-align:left;
+	position:absolute;
+	visibility:hidden;
+	top:50px;
+	}
+				
+#dropMenu ul li:hover ul{
+	visibility:visible;
+	}
+	
+#head {
+	height:100%; 
+	align-content:center;
+	font-size:52px;
+	}
